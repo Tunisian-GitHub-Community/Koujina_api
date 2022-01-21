@@ -1,0 +1,20 @@
+{
+  "name": "koujina_api",
+  "version": "1.0.0",
+  "description": "An API for kitchen recipes",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "mongodb": "^4.3.1",
+    "mongoose": "^5.12.9",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Ayoub Abidi",
+  "license": "ISC"
+}
