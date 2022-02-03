@@ -26,7 +26,7 @@ const app = express();
   app.use("/categories", categoryRoute);
 })();
 
-app.listen(PORT, () => {
+const listener = app.listen(PORT, () => {
   const { address } = listener.address();
   console.log("server running : http://%s:%s", address, PORT);
 });

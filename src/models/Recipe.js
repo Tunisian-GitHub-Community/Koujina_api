@@ -23,6 +23,9 @@ const RecipeSchema = new mongoose.Schema(
       type: Array,
       required: false,
     },
+    photo: {
+      type: Buffer,
+    },
   },
   { timestamps: true }
 );
