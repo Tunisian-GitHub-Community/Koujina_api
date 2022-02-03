@@ -2,7 +2,7 @@
   "name": "koujina_api",
   "version": "1.0.0",
   "description": "An API for kitchen recipes",
-  "main": "index.js",
+  "main": "./src/index.js",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "dotenv": "^14.2.0",
@@ -15,7 +15,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/index.js"
   },
   "author": "Ayoub Abidi",
   "license": "ISC"
